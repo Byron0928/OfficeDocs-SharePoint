@@ -18,14 +18,14 @@ description: "Summary: Learn how to install SharePoint Server 2016 to create a S
 ---
 
 # Install SharePoint Server 2016 across multiple servers
-
- **Summary:** Learn how to install SharePoint Server 2016 to create a SharePoint server farm. 
-  
 The deployment sequence and configurations that are described in this article are based on recommended best practices. While the farm configuration is not complex, it provides a fundamental infrastructure to implement a SharePoint Server 2016 solution on similar — or more complex farms.
   
     
 ## Overview
 <a name="Overview"> </a>
+
+ **Summary:** Learn how to install SharePoint Server 2016 to create a SharePoint server farm. 
+  
 
 The basic steps in this deployment are as follows:
   
@@ -33,9 +33,9 @@ The basic steps in this deployment are as follows:
     
 - Install the required software updates on all servers that will be part of the farm.
     
-- Install the SharePoint Server 2016 prerequisites on SharePoint servers.
+- Install the SharePoint Server 2016 prerequisites on each farm server.
     
-- Install SharePoint Server 2016 on the SharePoint servers.
+- Install SharePoint Server 2016 on the each farm server.
     
 - Create and configure the SharePoint farm.
     
