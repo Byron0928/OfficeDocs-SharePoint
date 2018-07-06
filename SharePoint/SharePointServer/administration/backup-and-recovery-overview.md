@@ -361,7 +361,7 @@ The following items can be backed up or exported from an unattached database by 
     
     Export, and then import.
     
-You can use import to recover content that you backed up from a database that is configured to use the SQL FILESTREAM RBS provider. SharePoint Server uses the currently defined storage provider for that content database to store recovered content. If the content database is not set to use RBS, the data will be stored in the content database; if the content database is set to use RBS, the data will be stored in RBS.
+You can use import to recover content that you backed up from a database that is configured to use the SQL FILESTREAM RBS provider. SharePoint Server uses the currently defined storage provider for that content database to store recovered content. If the content database is not set to use RBS, the data will be stored in the content database; if the content database is set to use RBS, only the stubs are in the content database,the blobs will be stored to other location.
   
 ## See also
 <a name="Section2"> </a>
